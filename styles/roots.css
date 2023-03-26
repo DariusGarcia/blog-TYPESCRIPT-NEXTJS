@@ -1,0 +1,8 @@
+:root {
+    /* colors */
+    --gainsboro: gainsboro;
+    --red: #f24d2e;
+    --border-radius: 10px;
+    /* fonts */
+    --heading-title-font: 'times';
+}
