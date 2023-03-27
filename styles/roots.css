@@ -1,0 +1,13 @@
+:root {
+    /* colors */
+    --gainsboro: gainsboro;
+    --red: #f24d2e;
+    --orange: #ff8c00;
+    --orange-faded: rgb(255, 140, 0, .8);
+
+    /* border radius */
+    --border-radius: 10px;
+
+    /* font families */
+    --heading-title-font: 'times';
+}

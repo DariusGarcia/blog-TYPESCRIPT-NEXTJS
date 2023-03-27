@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--gainsboro);
+    color: black;
+    padding: 2rem;
+}
+
+.navLinkContainer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem
+}

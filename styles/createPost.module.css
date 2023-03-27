@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.postCard {
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    width: 100%;
+}
+
+.blogForm {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 36rem;
+    background-color: var(--gainsboro);
+    border-radius: var(--border-radius);
+}
+
+.formTitle {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formInput {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border: none;
+    font-size: 1rem;
+
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formFileChooser::file-selector-button {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border: none;
+}
+
+.formTextArea {
+    resize: vertical;
+    max-height: 100px;
+    min-height: 1rem;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border: none;
+}
+
+.formButton {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    width: 16rem;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: var(--orange-faded);
+    font-size: 1.2rem;
+}
+
+.formButton:hover {
+    background-color: var(--orange);
+}
