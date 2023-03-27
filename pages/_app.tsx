@@ -16,7 +16,7 @@ import Link from 'next/link';
 
 //  List pages you want to be publicly accessible, or leave empty if
 //  every page requires authentication.
-const publicPages: Array<string> = ['/', '/login', '/sign-up'];
+const publicPages: Array<string> = ['/', '/post', '/login', '/sign-up'];
 
 const clerk_pub_key = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
