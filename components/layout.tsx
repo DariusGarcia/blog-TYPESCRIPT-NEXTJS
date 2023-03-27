@@ -1,3 +1,4 @@
+import { UserButton } from '@clerk/nextjs';
 import React, { ReactNode } from 'react';
 import NavComponent from './nav/navbar';
 

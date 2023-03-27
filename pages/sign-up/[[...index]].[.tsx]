@@ -1,0 +1,9 @@
+import React from 'react';
+import { SignUp } from '@clerk/nextjs';
+import style from '../../styles/register.module.css';
+
+export default function SignUpPage() {
+  <div className={style.registerContainer}>
+    <SignUp path='/sign-up' routing='path' signInUrl='/login' />;
+  </div>;
+}

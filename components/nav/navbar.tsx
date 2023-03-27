@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from 'next/link';
+import { UserButton } from '@clerk/nextjs';
 
 export default function NavComponent() {
   return (
@@ -19,6 +20,7 @@ export default function NavComponent() {
               {item.title}
             </Link>
           ))}
+          <UserButton />
         </ul>
       </div>
     </div>
