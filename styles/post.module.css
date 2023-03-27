@@ -64,7 +64,6 @@
 .button:hover {
     background-color: var(--red);
     border: 1px solid white;
-
     color: white;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

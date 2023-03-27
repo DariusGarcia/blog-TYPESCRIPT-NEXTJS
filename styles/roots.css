@@ -1,6 +1,7 @@
 :root {
     /* colors */
     --gainsboro: gainsboro;
+    --gainsboro-faded: rgb(220, 220, 220, .8);
     --red: #f24d2e;
     --orange: #ff8c00;
     --orange-faded: rgb(255, 140, 0, .8);
