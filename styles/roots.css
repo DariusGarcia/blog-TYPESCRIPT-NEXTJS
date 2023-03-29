@@ -1,14 +1,14 @@
 :root {
-    /* colors */
-    --gainsboro: gainsboro;
-    --gainsboro-faded: rgb(220, 220, 220, .8);
-    --red: #f24d2e;
-    --orange: #ff8c00;
-    --orange-faded: rgb(255, 140, 0, .8);
+  /* colors */
+  --gainsboro: gainsboro;
+  --gainsboro-faded: rgb(220, 220, 220, 0.8);
+  --red: #f24d2e;
+  --orange: #ff8c00;
+  --orange-faded: rgb(255, 140, 0, 0.8);
 
-    /* border radius */
-    --border-radius: 10px;
+  /* border radius */
+  --border-radius: 10px;
 
-    /* font families */
-    --heading-title-font: 'times';
+  /* font families */
+  --heading-title-font: 'times';
 }

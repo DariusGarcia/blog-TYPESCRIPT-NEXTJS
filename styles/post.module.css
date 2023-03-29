@@ -1,97 +1,96 @@
 .postContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    padding: 4rem 2rem;
-    background-color: var(--red);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 2rem;
+  background-color: var(--red);
 }
 
 .postWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
 }
 
 .headingTitle {
-    /* font-family: var(--heading-title-font); */
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-    font-family: 'Gt super text book', Georgia, sans-serif;
-    color: #000;
-    font-size: 7.3vw;
-    line-height: 100%;
-    font-weight: 400;
-    letter-spacing: -0.35vw;
+  /* font-family: var(--heading-title-font); */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: 'Gt super text book', Georgia, sans-serif;
+  color: #000;
+  font-size: 7.3vw;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: -0.35vw;
 }
 
 .headerDescription {
-    width: 100%;
-    position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    font-family: 'Soehne web buch', sans-serif;
-    color: #000;
-    font-size: 18px;
-    line-height: 127%;
-    font-weight: 400;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: 'Soehne web buch', sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 127%;
+  font-weight: 400;
 }
 
 .button {
-    width: 12rem;
-    display: flex;
-    justify-content: center;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
-    font-family: 'Soehne web buch', sans-serif;
-    font-size: 22px;
-    line-height: 100%;
-    letter-spacing: -0.2px;
-    cursor: pointer;
-    letter-spacing: .5px;
-    background-color: white;
-    padding: 1rem;
-    border-radius: var(--border-radius);
-
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  font-family: 'Soehne web buch', sans-serif;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: var(--border-radius);
 }
 
 .button:hover {
-    background-color: var(--red);
-    border: 1px solid white;
-    color: white;
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 100ms;
-    margin: -1px;
+  background-color: var(--red);
+  border: 1px solid white;
+  color: white;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 100ms;
+  margin: -1px;
 }
 
-.postHeaderImage {}
+.postHeaderImage {
+}
 
 .headerImage {
-    width: 36rem;
-    object-fit: cover;
-    border-radius: var(--border-radius);
+  width: 36rem;
+  object-fit: cover;
+  border-radius: var(--border-radius);
 }
 
 @media screen and (min-width: 700px) {
-    .postContainer {
-        flex-direction: row;
-    }
+  .postContainer {
+    flex-direction: row;
+  }
 
-    .postWrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 70%;
-    }
+  .postWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 70%;
+  }
 
-    .headerDescription {
-        width: 24rem;
-    }
+  .headerDescription {
+    width: 24rem;
+  }
 }
